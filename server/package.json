@@ -1,0 +1,20 @@
+{
+  "name": "pern-todo-app-server",
+  "version": "1.0.0",
+  "description": "To do application",
+  "main": "index.js",
+  "author": "aolausoro.tech",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
